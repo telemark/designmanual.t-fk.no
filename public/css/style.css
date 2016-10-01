@@ -1,0 +1,315 @@
+﻿@import url('Webfont/Fonts.css');
+body {
+  font-size: 12pt;
+  color: black;
+  font-family: 'Telefon Web';
+}
+hr {
+  background-color: black !important;
+  border-top: 1px solid black !important;
+}
+table.table-striped {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+table.table-striped tr {
+  border-left: 1px solid #ddd;
+}
+table.table-striped td {
+  border-right: 1px solid #ddd;
+}
+table.table-striped tr td:first-child {
+  text-align: left;
+}
+a {
+  color: black;
+}
+p {
+  font-family: Georgia;
+  font-size: 12pt;
+}
+img.img-thumbnail {
+  padding: 0;
+  margin: 0;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+img.img-thumbnail.theme {
+  margin-top: 25px;
+}
+.col-lg-9 {
+  /*padding:0;*/
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: -15px;
+}
+.col-lg-9 a {
+  text-decoration: underline;
+}
+.col-lg-9 ul li,
+.col-lg-9 ol li {
+  font-family: Georgia;
+  font-size: 11pt;
+}
+h1 {
+  /*color:@brown;*/
+  margin-top: 0;
+  padding-bottom: 22px;
+  font-size: 35pt;
+}
+div.container {
+  max-width: 920px;
+  width: 100%;
+  padding: 0;
+}
+div.container.document {
+  min-height: 650px;
+  padding: 45px 0;
+}
+/*header*/
+div.header {
+  border-bottom: 1px solid black;
+}
+img.logo-left {
+  margin: 36px 0 30px 0;
+}
+img.logo-right {
+  float: right;
+  margin-top: 48px;
+  margin-right: 3px;
+}
+/*topmenu*/
+div.top-menu {
+  position: relative;
+}
+/**************/
+div.attachments {
+  padding-left: 80px;
+  background-image: url('images/download-image.png');
+  background-repeat: no-repeat;
+  background-position: left 13px;
+  margin-top: 42px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  margin-bottom: 40px;
+  border-top: 1px solid #5a4f4e;
+  border-bottom: 1px solid #5a4f4e;
+}
+div.attachments span.attachment {
+  float: left;
+  margin-left: 30px;
+  display: inline-block;
+  font-size: 0.9em;
+  min-width: 200px;
+}
+div.attachments a {
+  color: black;
+  text-decoration: none;
+}
+div.attachments a:hover {
+  text-decoration: underline;
+}
+/*custom-attachments*/
+.custom-attachments {
+  padding: 0;
+  margin-top: 60px;
+}
+.custom-attachments .col-lg-3 {
+  position: relative;
+}
+.custom-attachments .attachment-title {
+  color: #ffd520;
+  font-size: 80pt;
+  margin-right: 20px;
+  display: inline-block;
+  line-height: 0.55;
+}
+.custom-attachments .attachment-name {
+  position: absolute;
+  width: 80px;
+  display: inline-block;
+  top: 5px;
+  line-height: 1.1;
+}
+/*navbar-default***************************************************************/
+nav.navbar-default {
+  background-image: none;
+  border-color: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+.navbar {
+  min-height: initial;
+  border: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+nav.navbar-default ul.navbar-nav > li > a {
+  padding: 5px 15px 6px 15px;
+  text-shadow: none;
+  color: black;
+}
+nav.navbar-default .navbar-nav > li.active > a,
+nav.navbar-default .navbar-nav > li > a:hover,
+nav.navbar-default .navbar-nav > li > a:focus {
+  background-image: none;
+  background-color: #ffd520;
+  box-shadow: none;
+  color: black;
+}
+nav.navbar-default .navbar-nav > .active:hover > a,
+nav.navbar-default .navbar-nav > li:hover > a {
+  background-color: #ffd520;
+}
+ul.navbar-nav {
+  margin: 0;
+}
+ul.navbar-nav > li {
+  padding: 0;
+}
+nav.navbar-default button.navbar-toggle {
+  border-color: transparent;
+  background-color: transparent;
+}
+.navbar-collapse.in {
+  overflow: hidden;
+}
+div.navbar-collapse {
+  padding: 0;
+  box-shadow: none;
+  margin: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffd520;
+}
+.navbar-default .navbar-header {
+  margin-bottom: 10px;
+}
+/*submenu*/
+ul.submenu,
+ul.submenu li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul.submenu li ul.tree {
+  display: none;
+}
+ul.submenu li.active ul.tree {
+  display: block;
+}
+ul.submenu li.active ul.tree li ul.tree {
+  display: none,;
+}
+ul.submenu li.active ul.tree li.active ul.tree {
+  display: block;
+}
+ul.submenu {
+  margin: 10px 0;
+}
+ul.submenu > li ul li:hover {
+  /*background-image: url('../css/images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: left 0px;*/
+}
+ul.submenu > li.active ul li a {
+  color: black;
+}
+ul.submenu li a:hover,
+ul.submenu li.active a,
+ul.submenu > li.active ul li:hover a,
+ul.submenu > li.active ul li.active a {
+  color: #6ac4ae;
+}
+ul.submenu li ul li {
+  border: none;
+  padding: 0 0 0 20px;
+}
+ul.submenu li ul li a {
+  line-height: 1;
+  font-size: 0.9em;
+}
+ul.submenu li {
+  padding: 5px 0;
+}
+ul.submenu li ul {
+  padding-left: 0;
+}
+a:hover {
+  color: #ffd520;
+  text-decoration: none;
+}
+/*footer*/
+div.footer {
+  background-color: black;
+  padding: 30px 0;
+  color: white;
+  margin-top: 50px;
+  font-size: 0.8em;
+}
+div.footer a {
+  color: white;
+}
+div.footer .col-lg-3 {
+  background-image: url('images/v-border.png');
+  background-position: 220px top;
+  background-repeat: repeat-y;
+  min-height: 60px;
+}
+@media screen and (max-width: 992px) {
+  .white-bg {
+    max-width: initial;
+  }
+  .row {
+    margin: 0;
+  }
+  div.footer .col-lg-3 {
+    background-image: none;
+    padding-bottom: 20px;
+  }
+  .col-lg-9 {
+    padding: 0 15px;
+    margin-left: 0;
+  }
+  div.container.document {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav.navbar-default {
+    display: block;
+  }
+  nav.navbar-default ul.navbar-nav > li > a {
+    padding: 5px 30px;
+  }
+  .custom-attachments .col-lg-3 {
+    display: table;
+    margin: 20px 0 20px 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.6em;
+  }
+  img.logo-right {
+    width: 125px;
+    margin-right: 20px;
+  }
+  img.logo-left {
+    margin-left: 20px;
+    margin-bottom: 0;
+    width: 130px;
+  }
+  div.header {
+    min-height: inherit;
+  }
+  div.top-menu {
+    margin-top: 0;
+  }
+  div.top-menu div.main-home-url {
+    top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

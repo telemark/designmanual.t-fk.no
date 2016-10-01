@@ -1,0 +1,43 @@
+
+
+@font-face {
+    font-family: 'Telefon Web Black';
+    src: url('https://designguide.t-fk.no/css/Webfont/telefon_web_black.eot');
+    src: url('https://designguide.t-fk.no/css/Webfont/telefon_web_black.eot?') format('embedded-opentype'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_black.woff') format('woff'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_black.ttf') format('truetype'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Telefon Web Bold';
+    src: url('https://designguide.t-fk.no/css/Webfont/telefon_web_bold.eot');
+    src: url('https://designguide.t-fk.no/css/Webfont/telefon_web_bold.eot?') format('embedded-opentype'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_bold.woff') format('woff'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_bold.ttf') format('truetype'),
+         url('https://designguide.t-fk.no/css/Webfont/telefon_web_bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Telefon Web';
+    src: url('telefon_web_normal.eot');
+    src: url('telefon_web_normal.eot@') format('embedded-opentype'),
+         url('telefon_web_normal.woff') format('woff'),
+         url('telefon_web_normal.ttf') format('truetype'),
+         url('telefon_web_normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

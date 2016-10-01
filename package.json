@@ -1,0 +1,37 @@
+{
+  "name": "designmanual.microsite.t-fk.no",
+  "description": "Static version of our designguide",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "keywords": [
+    "designguide",
+    "tfk",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/designguide.microsite.t-fk.no.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/desginguide.microsite.t-fk.no/issues"
+  },
+  "homepage": "https://github.com/telemark/designguide.microsite.t-fk.no",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && node setup.js"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "inert": "^4.0.2"
+  }
+}
