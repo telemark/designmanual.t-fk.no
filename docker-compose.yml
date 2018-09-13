@@ -1,7 +1,7 @@
 version: '2'
 services:
   designmanual:
-    image: telemark/designmanual.t-fk.no:latest@sha256:96959974eb73821d461ea66fc18cab621dec230dfd4a44e4c787e34c2665c33c
+    image: telemark/designmanual.t-fk.no:latest@sha256:48f2c225091e475d4b0d4cc602cc06980238255667599f3461a83c0b900705eb
     # build: .
     ports:
       - "3000:3000"
